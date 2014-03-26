@@ -1,0 +1,32 @@
+# INICIANDO
+
+1. CONFIGURAÇÃO
+
+1.1 - Acesse o index, não modificar nenhuma linha do index e nem excluir este arquivo;
+
+1.2 - Acesse os arquivos de configuração:
+
+    /libs/config/area.php
+
+    - Project é o nome do diretório do projeto no localhost;
+
+    /libs/config/database.php
+
+    /libs/config/path.php
+
+    - PATH = localhost + project ou http://www.mypage.com/;
+
+    Efetue as configurações necessárias
+
+1.3 - Acesse o arquivo sweet.js e altere a primeira linha co o mesmo nome do path:
+
+    swee.php
+    ...
+    var httprequest = 'http://www.mypage.com/';
+
+1.3 - Agora acesse o diretório
+
+    /libs/app/controler/
+
+    E vamos gerenciar as chamadas de páginas
+
